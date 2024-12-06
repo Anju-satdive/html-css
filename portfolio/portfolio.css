@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4efef;
+    display: ;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 0px;
+}
+
+/* Portfolio Card Styling */
+.portfolio-card {
+    width: 320px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(84, 45, 157, 0.1);
+    transition: transform 0.3s ease-in-out;
+    margin: 20px;
+    text-align: center;
+}
+
+.portfolio-card:hover {
+    transform: scale(1.05);
+}
+
+/* Card Image Styling */
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* Card Content Styling */
+.card-content {
+    padding: 20px;
+}
+
+.card-content h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 1em;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+
+.h2{
+    font-size: 1em;
+    color: #777;
+    margin-left: 50px;
+
+}

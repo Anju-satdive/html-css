@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Cards on Single Image</title>
+    
+    <link rel="stylesheet" href="container.html"> 
+    <link rel="icon" href="https://img.freepik.com/premium-vector/cute-corgi-app-icon-logo_6930-98.jpg">
+    
+    <style>
+    /* General Reset */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* The container that holds the image */
+.image-container {
+    position: relative; /* Needed for positioning cards inside the container */
+    width: 100%;
+    height: 500px; /* Set the height of the container */
+    background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg'); /* Image URL */
+    background-size: cover;
+    background-position: center;
+    background-size: 100%;
+    background-size: 100vw;
+   
+    display: flex; /* Use Flexbox to lay out the cards */
+    justify-content: space-around; /* Space out cards evenly */
+    align-items: center; /* Center the cards vertically */
+    box-shadow: 5px 10px;
+    
+    
+
+}
+
+/* Styling for each card */
+.card {
+    background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px; /* Set width of each card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a shadow to the card */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+    background-color: #99dfd8;
+    
+}
+
+/* Card hover effect */
+.card:hover {
+    transform: translateY(-10px); /* Slight hover effect (lifting the card) */
+}
+
+/* Heading style inside the card */
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #060606;
+    text-decoration: underline;
+    transition: width 2s, height 4s;
+    
+}
+
+/* Paragraph inside the card */
+.card p {
+    font-size: 1rem;
+    color: #f40707;
+    margin-bottom: 15px;
+}
+
+/* Link inside the card */
+.card a {
+    font-size: 1rem;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.card a:hover {
+    text-decoration: line-through;
+    
+}
+
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        
+        <!-- First Card -->
+        <div class="card">
+           <img id="user" src="https://cdn-icons-png.flaticon.com/128/174/174855.png" alt="Image 1"  width="100" height="100">
+           
+            <h3 title="Instagram">Instagram</h3>
+            
+            
+            <p>This is the first card.</p>
+            <a href="https://www.instagram.com/accounts/login/?ne..0.......xt=https%3A%2F%2Fwww.instagram.com%2Fqr%2F%3F__coig_login%3D1">Instagram</a>
+            
+        </div>
+        
+        <!-- Second Card -->
+        <div class="card">
+            <img id="user" src="https://cdn-icons-png.flaticon.com/128/3536/3536505.png" alt="Image 1"  width="100" height="100">
+            <h3 title="Linkedin">Linkedin</h3>
+            <p>This is the second card.</p>
+            <a href="https://www.linkedin.com/home?originalSubdomain=in">Linkedin</a>
+
+        </div>
+        
+        
+        <!-- Third Card -->
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/128/3670/3670147.png" alt="image" width="100" height="100">
+            <h3 title="Youtube">Youtube</h3>
+            
+            <p>This is the third card.</p>
+            <a href="https://www.youtube.com/?gl=IN">Youtube</a>
+        </div>
+
+        <!-- Fourth Card -->
+        <div class="card">
+            <img src="https://cdn-icons-png.flaticon.com/128/15047/15047435.png" alt="image" width="100" height="100">
+            <h3 title="Facebook">Facebook</h3>
+            <p>This is the fourth card.</p>
+            <a href="https://www.facebook.com/">Facebook</a>
+        </div>
+    </div>
+
+    </body>
+</html>

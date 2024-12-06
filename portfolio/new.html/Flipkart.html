@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart - iPhone Sale</title>
+    <link rel="stylesheet" href="iphone.css">
+    
+   
+</head>
+
+<style>
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and font setup */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2874f0;
+    padding: 15px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  20px;
+}
+
+.navbar .logo h1 {
+    color: rgb(240, 240, 240);
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+
+/* Product Section */
+#product {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+
+}
+
+.product-container {
+    display: flex;
+    background-color: rgb(246, 246, 246);
+    box-shadow: 0 4px 8px rgba(57, 56, 56, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 80%;
+    opacity: 0.9px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    border-right: 2px solid #f1f1f1;
+    width: 100%;
+    cursor: pointer;
+}
+
+.img{
+    width: 10px;
+    height: 20px;
+}
+
+.product-details {
+    padding: 5px;
+    width: 200%;
+
+}
+
+.product-details h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #232020;
+}
+
+.product-tags {
+    margin: 10px 0;
+    display: flex;
+    margin-left: 500px;
+}
+
+.product-tags .tag {
+    display: inline-block;
+    background-color: #2874f0;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 10px;
+    font-size: 0.9rem;
+    border-radius: 3px;
+    display: flex;
+}
+
+.product-details .price {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2874f0;
+    margin: 10px 0;
+}
+
+.product-details .description {
+    font-size: 1rem;
+    color: #4c4747;
+    margin: 30px 0;
+    
+    
+}
+
+
+
+.product-options select {
+    padding: 10px;
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #1e1b1b;
+    border-radius: 5px;
+}
+
+.cart {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: 20px;
+    
+    
+}
+
+ 
+.EMI{
+    background-color: rgb(255, 196, 0);
+    width: 150px;
+    height: 60px;
+    margin-top: 12px;
+    margin-left: 20px;
+
+}
+
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+
+</style>
+<body>
+    <!-- Header Section -->
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <h1>Flipkart</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Cart</a></li>
+                    <li><a href="#">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Product Section -->
+    <section id="product">
+        <div class="product-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRVWWx-K2ZuavcP572S_QftbqkQ11HV7_5t90eeO9dazp-TKm6rgdEJTYuU-3NI_AXY7w&usqp=CAU" alt="wishlist" width="80px" height="25px">
+            <div class="product-image">
+                <!-- Redirects to the selling page when clicked -->
+             
+                
+
+                    <img src="https://rukminim2.flixcart.com/image/312/312/xif0q/mobile/a/c/k/-original-imagtc5fuzkvczr7.jpeg?q=70" alt="iPhone 13 Pro"  width="250" height="400">
+                    <br>
+                    <button class="cart">PAY WITH EMI</button>
+                    <button class="EMI"> ⚡︎ BUY NOW</button>
+                  
+            </div>
+            <div class="product-details">
+                <h2>iPhone 13 Pro</h2>
+                
+                <!-- Tags section -->
+                <div class="product-tags">
+                    
+                </div>
+                <p class="price">60,900</p>
+                <p class="description">
+                The iPhone 13 Pro is powered by the A15 Bionic chip and comes with a stunning 6.1-inch Super Retina XDR display.
+                <br>
+                 Capture stunning photos with the 12MP triple-camera system and enjoy incredible performance with long battery life.
+                </p>
+
+                <br>
+                Available offers
+                  
+                    <link rel="icon" href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.iconsdb.com%2Fgreen-icons%2Ftag-icon.html&psig=AOvVaw3BdE-XU75EJ_vFXU9ttmea&ust=1732792325309000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDMlMav_IkDFQAAAAAdAAAAABAZ">
+                    
+                 <ul>
+                    <li>Bank Offer5% </li>
+                    <li>Unlimited Cashback on Flipkart Axis Bank Credit CardT&C</li>
+                    <li>Special PriceGet extra ₹11651 off (price inclusive of cashback/coupon)T&C</li>
+                       <li>FreebieFlat 15% off on hotels up to 3999T&C</li>
+                       <li>Extra 10% off on Combo with Mobile - Google,Nothing,AppleT&C</li>
+
+                 </ul>
+          
+                </select>
+                    </div>
+                    
+                        </select>
+                    </div>
+                </div>
+              
+                
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2024 Anjali | All Rights Reserved</p>
+            <p>Terms & Conditions | Privacy Policy</p>
+        </div>
+    </footer>
+
+   
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Anjali Satdive</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <section class="portfolio">
+        <div class="portfolio-card">
+        
+            <img src="C:\Users\Anjali Satdive\Downloads\piccc.jpg.jpg" alt="Anjali" class="project-image">
+            <div class="project-details">
+                <h1>Anjali Satdive</h1 >
+                <p>It showcases my work on a web development project using HTML, CSS, and JavaScript.</p>
+                
+                <a href="https://www.instagram.com" target="_blank">Instagram</a>
+             
+                <a href="www.linkedin.com" target="_blank">Linkedin</a>
+                <a href="www.github.com" target="blank">GIthub</a>
+            </div>
+        </div>
+
+        
+
+        <!-- Add more portfolio cards as needed -->
+    </section>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eebbda;
+    padding: 20px;
+}
+
+/* Portfolio Section */
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Portfolio Card */
+.portfolio-card {
+    background-color: #f1f5f0;
+    border-radius: 8px;
+    overflow: hidden; /* Ensure the image doesn't overflow */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; 
+    max-width: 1000p;
+    margin-left: 1000PX;
+    margin-top: 100px;
+    length: 400px;
+
+}
+
+.portfolio-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Darker shadow on hover */
+}
+
+/* Image inside the card */
+.project-image {
+    width: 100px;
+    height: 200px; /* Fixed height for the image */
+    object-fit: cover; /* Ensures the image fits the container */
+}
+
+/* Project Details */
+.project-details {
+    padding: 20px;
+    text-align: center;
+}
+
+.project-details h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.project-details a {
+    display: icon;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.project-details a:hover {
+    background-color: #2980b9;
+}
+</style>
+</body>
+</html>
+        
